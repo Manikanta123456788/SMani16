@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.mani{
+    background-color: whitesmoke;    
+}
+
+.square{
+    background-color: gold;
+    height: 50vh;
+    width: 50vh;
+    position:absolute;
+    transform: translate(75vh,30vh);
+    border-radius: 50%;
+}
+
+.base{
+    background-color: black;
+    height: 20vh;
+    width: 20vh;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0, 76% 53%, 100% 100%, 0 100%, 26% 52%);
+    transform: translate(90vh,75vh);
+}
+.layer{
+    height: 3vh;
+    width: 28vh;
+    background-color: black;
+    position: absolute;
+    transform: translate(86vh,73vh);
+    border-radius: 20%;
+}
+.Ulayer{
+    height: 3vh;
+    width: 50vh;
+    background-color: black;
+    position: absolute;
+    transform: translate(80vh,71vh);
+    border-radius: 20%;
+}
+.shivling{
+    height: 30vh;
+    width:20vh;
+    background-color: black;
+    position: absolute;
+    transform: translate(90vh,42vh);
+    border-radius: 50% 50% 0% 0%;
+    
+}
+.one{
+    height: 1vh;
+    width:8vh;
+    background-color: red;
+    position:absolute;
+    transform: translate(96vh,50vh);
+    border-radius: 20%;
+}
+.two{
+    height: 1vh;
+    width:8vh;
+    background-color: red;
+    position:absolute;
+    transform: translate(96vh,46vh);
+    border-radius: 20%;
+}
+.three{
+    height: 1vh;
+    width:8vh;
+    background-color: red;
+    position:absolute;
+    transform: translate(96vh,48vh);
+    border-radius: 20%;
+}
+.line{
+    height: 8vh;
+    width:2vh;
+    background-color: white;
+    position: absolute;
+    transform: translate(99vh,44vh);
+    border-radius: 50% 50%;
+}
+.innerTilak{
+    height: 2vh;
+    width: 2vh;
+    background-color: orangered;
+    position: absolute;
+    transform: translate(99vh , 47vh);
+    border-radius: 50%;
+}
+.leafs{
+    height: 2vh;
+    width: 2vh;
+    background-color:brown;
+    position: absolute;
+    border-radius:50%;
+}
+.leaf1{
+    transform: translate(88vh,68.5vh);
+}
+.leaf2{
+    transform: translate(90vh,69vh);
+}
+.leaf3{
+    transform: translate(92vh,69vh);
+}
+.leaf4{
+    transform: translate(94vh,69vh);
+}
+.leaf5{
+    transform: translate(96vh,69vh);
+}
+.leaf6{
+    transform: translate(98vh,69vh);
+}
+.leaf7{
+    transform: translate(100vh,69vh);
+}
+.leaf8{
+    transform: translate(102vh,69vh);
+}
+.leaf9{
+    transform: translate(104vh,69vh);
+}
+.leaf10{
+    transform: translate(106vh,69vh);
+}
+.leaf11{
+    transform: translate(108vh,69vh);
+}
+.leaf12{
+    transform: translate(110vh,68.5vh);
+}
+
+
+.leaf13{
+    transform: translate(93.5vh,84vh);
+}
+.leaf14{
+    transform: translate(95vh,85vh);
+}
+.leaf15{
+    transform: translate(97vh,85vh);
+}
+.leaf16{
+    transform: translate(99vh,85vh);
+}
+.leaf17{
+    transform: translate(101vh,85vh);
+}
+.leaf18{
+    transform: translate(103vh,85vh);
+}
+.leaf19{
+    transform: translate(104.5vh,84vh);
+}
+.stand{
+    height: 7vh;
+    width: 120vh;
+    background-color: black;
+    position: absolute;
+    transform: translate(43vh,93vh);
+    border-radius: 20%;
+}
+.stand2{
+    height: 5vh;
+    width: 40vh;
+    background-color: black;
+    position: absolute;
+    transform: translate(80vh,90vh);
+    border-radius: 40%;
+}
+.triHolder{
+    height:55vh;
+    width:2vh;
+    background-color: black;
+    position: absolute;
+    transform: translate(55vh,40vh);
+}
+.leadLeft{
+    height:14vh;
+    width:2vh;
+    background-color: black;
+    position: absolute;
+    transform: translate(46vh,27vh);
+    border-radius: 0% 100% 0% 0%;
+    border-left: 30%;
+}
+.leadRight{
+    height:14vh;
+    width:2vh;
+    background-color: black;
+    position: absolute;
+    transform: translate(64vh,27vh);
+    border-radius: 100% 0% 0% 0%;
+    border-left: 30%;
+}
+.leadCenter{
+    height:12vh;
+    width:2vh;
+    background-color: black;
+    position:absolute;
+    transform:translate(55vh,29vh);
+    border-radius: 50% 50% 0% 0%;
+}
+.trishul{
+    height: 2vh;
+    width:20vh;
+    background-color: black;
+    position: absolute;
+    transform: translate(46vh, 40vh);
+    border-radius: 0% 0% 50% 50%;
+}
+.white{
+    height: 0.5vh;
+    width:2vh;
+    background-color: white;
+    position: absolute;
+}
+.mark1{
+    transform: translate(55vh, 45vh);
+}
+.mark2{
+    transform: translate(55vh,46vh);
+}
+.mark3{
+    transform: translate(55vh,47vh);
+}
+
+.snakeOuterFace{
+    height: 6vh;
+    width: 6vh;
+    background-color: rgb(181, 73, 6);
+    
+    position: absolute;
+    transform: translate(84.5vh,40vh);
+    border-radius: 40%;
+}
+.snakeFace{
+    height: 4vh;
+    width: 3vh;
+    background-color: rgb(232, 130, 67);
+    position: absolute;
+    transform: translate(86vh,40vh);
+    border-radius: 20%;
+}
+.snakeBody{
+    background-color: rgb(232, 130, 67);
+    position: absolute;
+    height: 14vh;
+    width: 2vh;
+    transform: translate(86.5vh,44vh);
+    border-radius: 0% 0% 0% 50%;
+
+}
+
+.body1{
+    height: 2vh;
+    width: 25vh;
+    background-color:rgb(232, 130, 67) ;
+    position: absolute;
+    transform: translate(87vh,57vh);
+    border-radius: 40%;
+}
+.body2{
+    height: 2vh;
+    width: 25vh;
+    background-color:rgb(232, 130, 67) ;
+    position: absolute;
+    transform: translate(87vh,59vh);
+    border-radius: 30%;
+}
+.eyes{
+    position: absolute;
+    transform: translate(86vh,37.5vh);
+    font-size: 5vh;
+}
+.drum{
+    height:25vh;
+    width: 30vh;
+    position: absolute;
+    background-color: brown;
+    transform: translate(45vh,42vh);
+    clip-path: polygon(16% 29%, 16% 54%, 38% 44%, 59% 54%, 59% 30%, 37% 39%);
+    
+}
+.dLine3{
+    height: 2vh;
+    width:2vh;
+    position: absolute;
+    background-color: red;
+    transform: translate(55vh,40vh);
+    border-radius: 30%;
+}
+.dLine4{
+    
+        height: 2vh;
+        width:1vh;
+        position: absolute;
+        background-color:rgb(173, 113, 8);
+        transform: translate(55.5vh,51.5vh);
+        border-radius: 30%;
+    
+}
+.moon{
+    height: 10vh;
+    width:10vh;
+    position: absolute;
+    background-color: white;
+    transform: translate(103vh,35vh);
+    border-radius: 50%;
+}
+
+.circle{
+    background-color: gold;
+    height: 10vh;
+    width: 10vh;
+
+    border-radius: 50%;
+    transform: translate(104vh,34vh);
+    position: absolute;
+    z-index: 1;
+}
+.greet{
+    font-size: 10vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(21, 212, 206);
+    position: absolute;
+    transform: translate(140vh,35vh);
+}
